@@ -18,11 +18,11 @@ APIs
 
 The following APIs are available:
 
-    /api/restaurant/booking/tables/- This endpoint allows you to view and create,view,edit,delete bookings. Only authenticated users can create,edit,delete bookings.
-    /api/restaurant/menu/ - This endpoint allows you to view  menu items
-    /api/restaurant/menu/<id>/ - This endpoint allows you to view, update, and delete a specific menu item. Only the user who created the menu item can update or delete it.
-    /api/restaurant/api-token-auth/ This edpoint allows you create a Token using your username and password
-    Djoser endpoints for registration and login 
+    - /api/restaurant/booking/tables/- This endpoint allows you to view and create,view,edit,delete bookings. Only authenticated users can create,edit,delete bookings.
+    - /api/restaurant/menu/ - This endpoint allows you to view  menu items
+    - /api/restaurant/menu/<id>/ - This endpoint allows you to view, update, and delete a specific menu item. Only the user who created the menu item can update or delete it.
+    - /api/restaurant/api-token-auth/ This edpoint allows you create a Token using your username and password
+    - Djoser endpoints for registration and login 
 
 # testing
 
@@ -31,20 +31,20 @@ Installation
 
 To install this API, follow these steps:
 
-    Clone the repository to your local machine.
-    Create a virtual environment using python pipenv shell,
-    Install the required packages using pipenv install.
-    Run the database migrations using python manage.py migrate.
-    Create a superuser using python manage.py createsuperuser.
-    Start the server using python manage.py runserver.
+   - Clone the repository to your local machine.
+   - Create a virtual environment using python pipenv shell,
+   - Install the required packages using pipenv install.
+   - Run the database migrations using python manage.py migrate.
+   - Create a superuser using python manage.py createsuperuser.
+   - Start the server using python manage.py runserver.
 
 # Usage
 
 To use the API, follow these steps:
 
-    Obtain an authentication token by logging in or registering using the Djoser endpoints.
-    Include the authentication token in the headers of subsequent requests.
-    Use the available endpoints to manage bookings.
+  - Obtain an authentication token by logging in or registering using the Djoser endpoints.
+  - Include the authentication token in the headers of subsequent requests.
+  - Use the available endpoints to manage bookings.
 
 Credits
 
