@@ -8,6 +8,7 @@ router.register(r'users', views.UserViewSet)
 router.register(r'booking/tables', views.BookingViewSet)
 urlpatterns = [
     path('', include(router.urls)),
+    path('index/', views.index),
     path('menu/', views.MenuItemsView.as_view(),name='menu'),
     path('menu/<int:pk>', views.SingleMenuItemView.as_view()),
     path('api-token-auth/', obtain_auth_token)
