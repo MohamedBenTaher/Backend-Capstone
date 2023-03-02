@@ -10,6 +10,7 @@ urlpatterns = [
     path('', include(router.urls)),
     path('index/', views.index),
     path('menu/', views.MenuItemsView.as_view(),name='menu'),
+    path('bookings/', views.BookingViewSet.as_view({'get':'list','post':'add','put':'edit','delete':'destroy'}),name='booking'),
     path('menu/<int:pk>', views.SingleMenuItemView.as_view()),
     path('api-token-auth/', obtain_auth_token)
 ]
