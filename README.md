@@ -4,9 +4,9 @@
 This API is designed for managing bookings of a hotel or similar facility. It is built using Django and Django REST Framework (DRF).
 Features
 
-    Token-based authentication
-    User management using Djoser
-    APIs for managing bookings
+   - Token-based authentication
+   - User management using Djoser
+   - APIs for managing bookings
 
 # Authentication
 
